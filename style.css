@@ -1,0 +1,265 @@
+body {
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+
+.container {
+    width: 100%;
+    height: 1000px;
+}
+
+.navbar {
+    padding: 20px 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid black;
+    background: rgb(255, 192, 23);
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+}
+
+.anycolor {
+    background-color: #f8f8f8;
+}
+
+img {
+    width: 100%;
+}
+
+.lnk {
+    font-family: Sohne, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    text-decoration: none;
+    color: #191919;
+    padding: 14px 10px;
+    font-size: 14px;
+}
+
+.btn {
+    background-color: #191919;
+    color: rgba(255, 255, 255, 1);
+    text-decoration: none;
+    text-align: center;
+    padding: 2px 16px 9px;
+    border-radius: 30px;
+    border-color: #191919;
+}
+
+.carousel {
+    background-color: rgb(255, 192, 23);
+    padding: 70px 50px;
+    border-bottom: 1px solid black;
+    margin-top: 4rem;
+}
+
+.heading h1 {
+    margin: 0;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 106px;
+    font-weight: 400;
+    box-sizing: content-box;
+    line-height: 1.1;
+    word-spacing: 1px;
+    letter-spacing: -5px;
+}
+
+.heading h3 {
+    color: rgba(41, 41, 41, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 24px;
+    margin: 0;
+    line-height: 24px;
+    font-weight: 400;
+    padding-top: 25px;
+}
+
+.btn1 {
+    background-color: #191919;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    padding: 8px 50px;
+    border-radius: 30px;
+    border-color: #191919;
+    font-size: 20px;
+}
+
+.btn a {
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.button1 {
+    padding: 40px 0px;
+}
+
+.icon {
+    width: 30px;
+    height: auto;
+    float: left;
+
+}
+
+.dp img {
+    max-width: 100%;
+    height: auto;
+}
+
+.dp {
+    width: 22px;
+    height: auto;
+    /* padding-top: 6px;
+    padding-left: 27px;
+    padding-right: 10px; */
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    width: 32%;
+    margin-bottom: 24px;
+}
+
+.number {
+    display: flex;
+    align-items: flex-start;
+    font-size: 30px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: 900;
+    color: rgba(230, 230, 230, 1);
+}
+
+.boxes {
+    display: flex;
+    flex-direction: row;
+    padding: 9px 26px;
+    flex-wrap: wrap;
+    border-bottom: 1px solid;
+    border-color: rgba(117, 117, 117, 1);
+
+
+}
+
+.icon img {
+    max-width: 100%;
+    height: auto;
+}
+
+.t1 {
+    display: flex;
+    flex-wrap: wrap;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 13px;
+}
+
+.t2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+
+
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 4px 10px;
+
+}
+
+.one {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+
+}
+
+.boxtext {
+    margin-left: 5px;
+}
+
+.three {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    font-size: 13px;
+    color: rgba(117, 117, 117, 1);
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 400;
+    padding-top: 10px;
+
+}
+
+.heading2 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 31px;
+    padding-left: 40px;
+}
+
+.heading2 h2 {
+    margin-bottom: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: rgba(41, 41, 41, 1);
+    font-weight: 700;
+    line-height: 16px;
+    letter-spacing: 0.083em;
+}
+
+.text {
+    padding-left: 10px;
+}
+
+@media screen and (max-width: 1080px) {
+    .box {
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 768px) {
+    #links a {
+        display: none;
+
+    }
+
+    .navbar {
+        padding: 17px 20px;
+    }
+
+    .carousel {
+        padding: 70px 30px;
+    }
+
+    .text {
+        flex-wrap: wrap;
+    }
+
+    .btn {
+        padding: 8px 16px 9px;
+    }
+
+    .heading h1 {
+        font-size: 70px;
+    }
+
+    .heading h3 {
+        font-size: 23px;
+    }
+
+    .heading2 {
+        padding-left: 30px;
+    }
+
+    .box {
+        width: 100%;
+    }
+
+}
